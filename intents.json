@@ -82,3 +82,180 @@
     }
   ]
 }
+{
+  "intents": [
+    {
+      "tag": "ide_tool",
+      "patterns": [
+        "Which IDE tool allows a programmer to enter, format and edit source code.",
+        "Which tool enables programmer to edit code"
+      ],
+      "responses": [
+        "Editor"
+      ]
+    },
+    {
+      "tag": "python_ide",
+      "patterns": [
+        "what is the best IDE to use for Python",
+        "Which IDE is used for Python",
+        "What IDE should I use for Python"
+      ],
+      "responses": [
+        "PyCharm",
+        "Visual Studio Code",
+        "Jupyter Notebook"
+      ]
+    },
+    {
+      "tag": "ide_meaning",
+      "patterns": ["What does the acronym IDE stand for?"],
+      "responses": ["Integrated Development Environment"]
+    },
+    {
+      "tag": "java_ide",
+      "patterns": [
+        "what is the best IDE to use for Java",
+        "Which IDE is used for Java",
+        "Which are the most popular Java IDEs"
+      ],
+      "responses": [
+        "Eclipse",
+        "Intellij IDEA",
+        "NetBeans"
+      ]
+    },
+    {
+      "tag": "c#_ide",
+      "patterns": [
+        "what is the best IDE  for C#",
+        "Which IDE is used for c#",
+        "What IDE should I use for c#"
+      ],
+      "responses": [
+        "VS Code",
+        "Rider",
+        "Eclipse"
+      ]
+    },
+    {
+      "tag": "c_ide",
+      "patterns": [
+        "what is the best IDE  for C",
+        "Which IDE is used for c"
+      ],
+      "responses": [
+        "Code Blocks",
+        "Microsoft Visual Studio",
+        "Eclipse"
+      ]
+    },
+    {
+      "tag": "compiler",
+      "patterns": [
+        "What is a compiler",
+        "What does a compiler do"
+      ],
+      "responses": [
+        "Compiler is a program that converts human readable code into machine readable code."
+      ]
+    },
+    {
+      "tag": "ide_features",
+      "patterns": [
+        "What are the 3 major features of IDE",
+        "IDE features"
+      ],
+      "responses": [
+        "text editor",
+        "Build automation",
+        "Debugger"
+      ]
+    },
+    {
+      "tag": "interpreter",
+      "patterns": [
+        "What does interpreter do",
+        "What is the funtion of an interpreter"
+      ],
+      "responses": [
+        "executes a program by running each line consecutively",
+        "executes the program line by line"
+      ]
+    },
+    {
+      "tag": "high_level_Language",
+      "patterns": [
+        "What is a high-level language"
+      ],
+      "responses": [
+        "language that resembles natural language or mathematical notation and is designed to reflect the requirements of a problem"
+      ]
+    },
+    {
+      "tag": "assembly_language",
+      "patterns": [
+        "What is the best IDE for low level C and assembly programmer?"
+      ],
+      "responses": [
+        "VC++ ",
+        "Ollydbg"
+      ]
+    },
+    {
+      "tag": "R_language",
+      "patterns": [
+        "What are the best choices for an R IDE?"
+      ],
+      "responses": [
+        "R Studio",
+        "Visual Studio for R",
+        "Eclipse"
+      ]
+    },
+    {
+      "tag": "dart_language",
+      "patterns": [
+        "Which is the best IDE for dart language?"
+      ],
+      "responses": [
+        "IntelliJ Idea",
+        "Visual Studio Code",
+        "Dartfix",
+        "Pub"
+      ]
+    },
+    {
+      "tag": "mobile",
+      "patterns": [
+        "What IDEs can I use for mobile development",
+        "What is the best IDE for android"
+      ],
+      "responses": [
+        "Android studio",
+        "Eclipse",
+        "Microsoft Visua Studio"
+      ]
+    }, 
+    {
+      "tag": "ios",
+      "patterns": [
+        "What IDEs can I use for iOS development"
+      ],
+      "responses": [
+        "Xcode"
+      ]
+    },
+    {
+      "tag": "web_development",
+      "patterns": [
+        "What are the Web Development IDEs"
+      ],
+      "responses": [
+        "Visual Studio Code",
+        "PyCharm",
+        "Atom"
+      ]
+    }
+  ]
+}
